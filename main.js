@@ -5,9 +5,7 @@ document.querySelector(IdAudio).play();
 }
 const ListaDeAnimais = document.querySelectorAll('.botao');
 
-let contador =0;
-
-while(contador < ListaDeAnimais.length){
+for(let contador = 0; contador < ListaDeAnimais.length;contador++){
 
     const SonsAnimais = ListaDeAnimais[contador];
 //acessando a segunda classe do button
@@ -18,5 +16,5 @@ while(contador < ListaDeAnimais.length){
         tocaSom(audio)
     }
 
-    contador++;
+    
 }
