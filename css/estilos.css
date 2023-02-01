@@ -9,7 +9,7 @@
 
   body{
     align-items: center;
-    background: linear-gradient(45deg,  #83ccf6 0%,#8bfc01 100%);
+    background: linear-gradient(45deg,  #83ccf6 0%,#0198fce8 100%);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,20 +69,16 @@
     background-color: var(--marrom);
     border: 4px solid var(--marrom);
     box-shadow: 3px 3px 0 var(--vermelha-escura) inset;
-    color: var(--branca);
+    color: var(--luz);
     outline: none;
 
   }
-  .botao.focus,
-  .botao:focus{
-    outline: none;
-    box-shadow: 1px 1px 10px var(--luz);
-    
-  }
+
   .botao_porco.focus,
   .botao_porco:focus{
   
     background-image: url('../imagem/porco1.png');
+    
   }
   .botao_galinha.focus,
   .botao_galinha:focus{
